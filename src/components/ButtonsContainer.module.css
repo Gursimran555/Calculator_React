@@ -1,0 +1,28 @@
+
+
+.ButtonsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.button {
+  margin: 4px;
+  height: 70px;
+  width:  100px;
+  background-color: #69bdd2;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+
+}
+.button:hover {
+  background-color:  #95ddff;
+  border: 3px solid black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(0.9);
+  filter: brightness(140%);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 15px;
+}
